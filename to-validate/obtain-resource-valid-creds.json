@@ -1,0 +1,270 @@
+{
+  "id": "4693712f-b7ee-4962-8aae-a7ad43f49d80",
+  "version": "2.0",
+  "name": "obtain-resource-valid-creds",
+  "url": "https://argus-dev.uottawa.ca",
+  "tests": [{
+    "id": "e6673775-5ff3-4a25-9243-46be6bf4c333",
+    "name": "valid-creds-obtain-resource",
+    "commands": [{
+      "id": "58ccad28-fa4a-4052-96ca-4df04908d7e6",
+      "comment": "",
+      "command": "open",
+      "target": "/tests",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2af8aabe-7e15-4b48-b65e-5615506804f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1049x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7db102e3-558f-4053-8dab-6d5e01a951e5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#cred > .v-btn__content",
+      "targets": [
+        ["css=#cred > .v-btn__content", "css:finder"],
+        ["xpath=//button[@id='cred']/span", "xpath:idRelative"],
+        ["xpath=//button[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47880ea6-ad85-4f6a-ad59-15c17cb464d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cred > .v-btn__content",
+      "targets": [
+        ["css=#cred > .v-btn__content", "css:finder"],
+        ["xpath=//button[@id='cred']/span", "xpath:idRelative"],
+        ["xpath=//button[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b381ad7-8df8-4c54-92bc-be36564683e4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#cred > .v-btn__content",
+      "targets": [
+        ["css=#cred > .v-btn__content", "css:finder"],
+        ["xpath=//button[@id='cred']/span", "xpath:idRelative"],
+        ["xpath=//button[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1baee0a3-cc45-46e7-9e0e-8dd7581d1abc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-form",
+      "targets": [
+        ["css=.v-form", "css:finder"],
+        ["xpath=//div[@id='app']/div[3]/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d4b33e1-eb73-45d5-a2d2-89af5c02ca78",
+      "comment": "",
+      "command": "type",
+      "target": "id=key",
+      "targets": [
+        ["id=key", "id"],
+        ["css=#key", "css:finder"],
+        ["xpath=//input[@id='key']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "oxSZ6vxB8FB32v39pH41223lB34QI8Gn"
+    }, {
+      "id": "12b9771c-66f9-4a38-ac9d-69caae986e04",
+      "comment": "",
+      "command": "click",
+      "target": "id=app",
+      "targets": [
+        ["id=app", "id"],
+        ["css=#app", "css:finder"],
+        ["xpath=//div[@id='app']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e7a6ec-c024-449b-b9f3-cd9753aa339f",
+      "comment": "",
+      "command": "type",
+      "target": "id=secret",
+      "targets": [
+        ["id=secret", "id"],
+        ["css=#secret", "css:finder"],
+        ["xpath=//input[@id='secret']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4489a963-454b-4a99-aa29-d3e0d360e2a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=secret",
+      "targets": [
+        ["id=secret", "id"],
+        ["css=#secret", "css:finder"],
+        ["xpath=//input[@id='secret']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0f1e17b-e5c9-41e5-b4d1-bb8a736c304e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=save",
+      "targets": [
+        ["id=save", "id"],
+        ["css=#save", "css:finder"],
+        ["xpath=//button[@id='save']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ad2798d-dee5-4134-b31c-4d3fc69297ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=secret",
+      "targets": [
+        ["id=secret", "id"],
+        ["css=#secret", "css:finder"],
+        ["xpath=//input[@id='secret']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "H2cYZRW1afN0YoNfMWOPBD7sDIYKBWKDLppBkhVQlFW9TxaxWvW4TSAh4JXOLUFX"
+    }, {
+      "id": "35662c35-9983-44a3-9b14-b12537a74793",
+      "comment": "",
+      "command": "click",
+      "target": "id=save",
+      "targets": [
+        ["id=save", "id"],
+        ["css=#save", "css:finder"],
+        ["xpath=//button[@id='save']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "932c4621-aef1-445d-a39e-f84a5642bf1c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=save",
+      "targets": [
+        ["id=save", "id"],
+        ["css=#save", "css:finder"],
+        ["xpath=//button[@id='save']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[3]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c566e1b0-1692-446b-af9f-1d70711308f7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#oauth2-cc > .v-btn__content",
+      "targets": [
+        ["css=#oauth2-cc > .v-btn__content", "css:finder"],
+        ["xpath=//button[@id='oauth2-cc']/span", "xpath:idRelative"],
+        ["xpath=//button[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ac9f251-c9d3-4f02-b097-2e4f2f976cc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#oauth2-cc > .v-btn__content",
+      "targets": [
+        ["css=#oauth2-cc > .v-btn__content", "css:finder"],
+        ["xpath=//button[@id='oauth2-cc']/span", "xpath:idRelative"],
+        ["xpath=//button[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c288b6-717d-4c24-9ed0-3c8c5d9a239b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#oauth2-cc > .v-btn__content",
+      "targets": [
+        ["css=#oauth2-cc > .v-btn__content", "css:finder"],
+        ["xpath=//button[@id='oauth2-cc']/span", "xpath:idRelative"],
+        ["xpath=//button[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24b58f3f-6dde-4879-b75d-24552268a303",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#Oauth\\ 2\\ -\\ CC\\ 7true .v-list-item__subtitle",
+      "targets": [
+        ["css=#Oauth\\ 2\\ -\\ CC\\ 7true .v-list-item__subtitle", "css:finder"],
+        ["xpath=//div[@id='Oauth 2 - CC 7true']/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "ec6d6963-adda-41c1-9f3f-fd2d98058941",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#Oauth\\ 2\\ -\\ CC\\ 7true > .v-list-item__content .v-icon",
+      "targets": [
+        ["css=#Oauth\\ 2\\ -\\ CC\\ 7true > .v-list-item__content .v-icon", "css:finder"],
+        ["xpath=//div[@id='Oauth 2 - CC 7true']/div[2]/div/i", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "749e5412-e4e1-4567-8245-d8989eadb0ae",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#Oauth\\ 2\\ -\\ CC\\ 9true > .v-list-item__content .v-icon",
+      "targets": [
+        ["css=#Oauth\\ 2\\ -\\ CC\\ 9true > .v-list-item__content .v-icon", "css:finder"],
+        ["xpath=//div[@id='Oauth 2 - CC 9true']/div[2]/div/i", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41459c9a-48c8-4960-a607-aed0acb03e3e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#Oauth\\ 2\\ -\\ CC\\ 8true > .v-list-item__content .v-icon",
+      "targets": [
+        ["css=#Oauth\\ 2\\ -\\ CC\\ 8true > .v-list-item__content .v-icon", "css:finder"],
+        ["xpath=//div[@id='Oauth 2 - CC 8true']/div[2]/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eb4069b-f85d-4bb4-8b97-0b8ede9a9d87",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#Oauth\\ 2\\ -\\ CC\\ 10true > .v-list-item__content .v-icon",
+      "targets": [
+        ["css=#Oauth\\ 2\\ -\\ CC\\ 10true > .v-list-item__content .v-icon", "css:finder"],
+        ["xpath=//div[@id='Oauth 2 - CC 10true']/div[2]/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2dc7a876-5c6f-4630-a27f-cf6ee6e43aa2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e6673775-5ff3-4a25-9243-46be6bf4c333"]
+  }],
+  "urls": ["https://argus-dev.uottawa.ca/"],
+  "plugins": []
+}
